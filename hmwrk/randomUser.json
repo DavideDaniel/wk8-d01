@@ -1,0 +1,37 @@
+{
+	"results": [ {
+		"user": {
+			"gender": "male",
+			"name": {
+				"title": "mr",
+				"first": "rene",
+				"last": "ferguson"
+			},
+			"location": {
+				"street": "8104 e little york rd",
+				"city": "charlotte",
+				"state": "alabama",
+				"zip": "11897"
+			},
+			"email": "rene.ferguson51@example.com",
+			"username": "heavyduck595",
+			"password": "stuff",
+			"salt": "mx4sg67N",
+			"md5": "e5b9649c772cfb35312f8e3d70aa3df1",
+			"sha1": "38ecf42f5e03038d6a9ad775c239a85e2c387897",
+			"sha256": "ff080ac86800c1c8a7b8a5b5f5dbc87e782af5ad3a23bfa8104911bec9bce3e2",
+			"registered": "977457969",
+			"dob": "397061688",
+			"phone": "(455)-328-9366",
+			"cell": "(217)-327-4914",
+			"SSN": "790-44-3160",
+			"picture": {
+				"large": "http://api.randomuser.me/portraits/men/44.jpg",
+				"medium": "http://api.randomuser.me/portraits/med/men/44.jpg",
+				"thumbnail": "http://api.randomuser.me/portraits/thumb/men/44.jpg"
+			},
+			"version": "0.4.1"
+		},
+		"seed": "ae4d8c5dbc861a18"
+	} ]
+}

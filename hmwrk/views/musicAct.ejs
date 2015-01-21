@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form action = "/add" method = "post">
+            <input type="text" name = "name">
+
+
+            <button>Add</button>
+        </form>
+
+        <% if (musicActDB.length > 0) { %>
+        <ul>
+            <% musicActDB.forEach (function(act) { %>
+            <li>
+                <%= act.name %>
+                <%= act.albums %>
+
+            </li>
+        </ul>
+        <% }) %>
+        <% } %>
+    </body>
+</html>
